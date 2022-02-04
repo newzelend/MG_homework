@@ -110,9 +110,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="вопрос" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiG-ia-VQ8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="вопрос" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiG-ia-VQ8">
                                 <rect key="frame" x="104" y="240" width="206" height="75.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="63"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -208,6 +207,7 @@
                         <viewLayoutGuide key="safeArea" id="iQr-QU-RMe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="GiG-ia-VQ8" firstAttribute="top" secondItem="iQr-QU-RMe" secondAttribute="top" constant="240" id="7eL-4p-yFO"/>
                             <constraint firstItem="IlT-ms-wW8" firstAttribute="leading" secondItem="iQr-QU-RMe" secondAttribute="leading" constant="20" id="8vb-yI-i1o"/>
                             <constraint firstItem="XSq-LY-qP7" firstAttribute="top" secondItem="R6e-LX-zPm" secondAttribute="bottom" constant="263" id="B4L-hj-Z5P"/>
                             <constraint firstItem="4Z4-YQ-Fwu" firstAttribute="top" secondItem="O2Q-Jl-KGE" secondAttribute="bottom" constant="51.5" id="F5r-tI-C2e"/>
@@ -217,9 +217,11 @@
                             <constraint firstItem="iQr-QU-RMe" firstAttribute="trailing" secondItem="4Z4-YQ-Fwu" secondAttribute="trailing" constant="71.5" id="RmX-Ea-Aqq"/>
                             <constraint firstItem="XSq-LY-qP7" firstAttribute="bottom" secondItem="iQr-QU-RMe" secondAttribute="bottom" id="Uvv-L1-ot3"/>
                             <constraint firstItem="iQr-QU-RMe" firstAttribute="trailing" secondItem="Vp7-jb-xmh" secondAttribute="trailing" constant="71" id="Xqt-hp-ppX"/>
+                            <constraint firstItem="GiG-ia-VQ8" firstAttribute="leading" secondItem="iQr-QU-RMe" secondAttribute="leading" constant="104" id="fJZ-m3-UwR"/>
                             <constraint firstItem="cmv-oU-NAu" firstAttribute="leading" secondItem="iQr-QU-RMe" secondAttribute="leading" constant="60" id="g9u-ju-BnC"/>
                             <constraint firstItem="R6e-LX-zPm" firstAttribute="leading" secondItem="IlT-ms-wW8" secondAttribute="trailing" constant="43" id="jPG-Op-HBL"/>
                             <constraint firstItem="Vp7-jb-xmh" firstAttribute="top" secondItem="4Z4-YQ-Fwu" secondAttribute="bottom" constant="56.5" id="kVJ-As-zEc"/>
+                            <constraint firstItem="iQr-QU-RMe" firstAttribute="trailing" secondItem="GiG-ia-VQ8" secondAttribute="trailing" constant="104" id="q3O-jX-Pm7"/>
                             <constraint firstItem="iQr-QU-RMe" firstAttribute="trailing" secondItem="O2Q-Jl-KGE" secondAttribute="trailing" constant="20" id="siB-Po-CIu"/>
                             <constraint firstItem="iQr-QU-RMe" firstAttribute="bottom" secondItem="Vp7-jb-xmh" secondAttribute="bottom" constant="123" id="u2w-lb-26s"/>
                             <constraint firstItem="XSq-LY-qP7" firstAttribute="centerX" secondItem="144-QF-ej8" secondAttribute="centerX" id="u6m-kU-Hb1"/>
